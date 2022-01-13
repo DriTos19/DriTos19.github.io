@@ -1,0 +1,17 @@
+p {
+	background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+padding: 30px;
+}
+
+h1 {
+	background: rgb(34,193,195);
+background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(136,93,191,1) 27%, rgba(190,120,120,1) 50%, rgba(86,194,120,1) 73%, rgba(253,187,45,1) 100%);
+padding: 30px;
+}
+
+ul {
+	background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(82,176,123,1) 52%, rgba(252,70,107,1) 100%);
+padding: 30px;
+}

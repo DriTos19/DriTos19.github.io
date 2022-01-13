@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.card {
+	border: 30px double rgb(31, 130, 36);
+	padding: 70px;
+	background: linear-gradient(90deg, rgba(143,141,3,0.5130427170868348) 0%, rgba(121,9,38,0.6923144257703081) 100%);
+	border-radius: 40px;
+	transition: all 4s;
+	text-align: center;
+}
+
+.card:hover {
+	transform: scale(1.5) rotate(30deg);
+	transition: all 4s;
+
+}
+
+h1, h2, p {
+	font-family: Corinthia;
+	font-size: 30px;
+}
