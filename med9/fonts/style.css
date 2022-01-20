@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Noto+Serif&family=Raleway:wght@300&display=swap');
+h1 {
+	text-align: left;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 30px;
+	font-family: "Noto Serif";
+	letter-spacing: 20px;
+}
+
+h2 {
+	text-align: right;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 30px;
+	font-family: "Noto Serif";
+	letter-spacing: 20px;
+}
+
+
+p { 
+	margin: 70px;
+	text-align: justify;
+	font-family: "Raleway";
+	font-size: 25px;
+	column-count: 3;
+	line-height: 1.5;
+
+}
+
+.signature {
+	margin:  60px;
+	font-size: 70px;
+	font-family: "Cookie";
+	column-count: 1;
+}
+
+body {
+background: linear-gradient(90deg, rgba(143,141,3,0.5130427170868348) 0%, rgba(121,9,38,1) 100%);
+}
+
+html {
+	color: white;
+}
