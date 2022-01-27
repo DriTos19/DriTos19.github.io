@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Noto+Serif&family=Raleway:wght@300&display=swap');
+
+h1 {
+	text-align: center;
+
+}
+
+html {
+	background-image: url(background.jpg)
+}
+
+.random {
+	font-size: 30px;
+	font-family: Raleway;
+	background: linear-gradient(90deg, rgba(225,150,93,0.6923144257703081) 78%, rgba(252,176,69,0.5074404761904762) 100%);
+	column-count: 2;
+	color: lightgreen;
+	border: dashed 10px ;
+	border-radius: 15px;
+}
+
+img {
+	width: 30%;
+	float: right;
+	border: solid 10px black;
+	border-radius: 15px;
+	transition: all 2s;
+}
+
+img:hover {
+transform: scale(1.3);
+transition: all 2s;
+
+}
+
+.Relativ {
+	padding: 50px;
+	margin: 30px;
+}
