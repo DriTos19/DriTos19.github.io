@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lovers+Quarrel&family=Raleway:wght@100&family=Shizuru&display=swap');
+
+h1 {
+	text-align: center;
+	font-family: Raleway;
+}
+
+h2 {
+	text-align: center;
+	font-family: Dancing Script;
+}
+
+.a {
+	column-count: 3;
+	border: 10px dotted black;
+	padding: 30px;
+	margin: 20px;
+	font-family: Raleway;
+}
+
+#b {
+	border: 10px dotted black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	padding: 30px;
+	height: 250px;
+	background: radial-gradient(circle, rgba(133,221,211,1) 20%, rgba(93,69,252,1) 100%);
+}
+
+#b p {
+	background-color: white;
+	padding: 30px;
+	font-family: Raleway;
+}
+
+.c {
+	border: 7px dotted black;
+	background-color: lightblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 400px;
+	margin: 20px;
+	font-family: Raleway;
+}
+
+p {
+	background-color: white;
+	padding: 30px;
+	margin: 1px;
+}
+
+#d {
+	border: 7px dotted black;
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	margin: 20px;
+	height: 380px;
+	font-family: Raleway;
+}
+
+img {
+	height: 120px;
+	border: 2px solid white;
+}
+
+footer {
+	border: 7px dotted black;
+	background-color: darkblue;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	height: 380px;
+	font-family: Raleway;
+}
