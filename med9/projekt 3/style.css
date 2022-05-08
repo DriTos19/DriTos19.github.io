@@ -1,0 +1,289 @@
+/*
+*
+*Title: Projekt 3;
+*Author: Drini Toska;
+*Daate: 17.03.2022;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+ body {
+ 	margin: 0;
+ 	background: linear-gradient(0deg, rgba(148,142,186,1) 24%, rgba(237,163,0,1) 45%);
+ }
+
+/**************************************** Navigation Styling ***********************************/
+
+
+nav {
+	background: linear-gradient(133deg, rgba(148,142,186,1) 24%, rgba(237,163,0,1) 45%);
+	display: flex;
+	justify-content: space-between; /* To make the links on the right side and the logo on the left*/
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+	width: calc(100% - 60px);
+	z-index: 1
+}
+
+nav img {
+	height: 70px;
+	border-radius: 50%; /* To make the logo round */
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none; /* It removes the bullet points */
+}
+
+nav ul li a {
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;/* It removes the underline */
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	border-radius: 15px;
+	color: black;
+	font-family: Raleway;
+}
+
+nav ul li a:hover {
+	/* However chenges the elements if we move the moouse over it*/
+	background-color: black;
+	color: white;
+}
+
+
+
+
+/************************************ Header Styling ***********************/
+
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size: cover;
+	height: 550px;
+}
+
+header h1 {
+	font-size: 30px;
+	background-color:rgb(204, 209, 54) ;
+}
+
+header {
+	background-image: url(header-background.jpg);
+	height: 400px;
+}
+
+
+/*Main*/
+
+
+main {
+	padding: 60px;
+	background: linear-gradient(0deg, rgba(148,142,186,1) 24%, rgba(237,163,0,1) 45%);
+}
+
+.contact {
+	padding: 20px;
+	text-decoration: none;/* It removes the underline */
+	color: black;
+	font-family: Raleway;
+	background: linear-gradient(0deg, rgba(207,199,30,1) 48%, rgba(153,144,214,1) 81%);;
+}
+
+ /* Footer */
+ footer {
+ 	height: 400px;
+ 	display: flex;
+ 	justify-content: space-evenly;
+ 	align-items: center;
+ 	background-image: url(footer.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+
+ footer p {
+ 	background: rgba(255, 255, 255, 0.7);
+ 	padding: 10px;
+ 	border-radius: 15px;
+ }
+
+ /******************************** Product Page Styling ***************************/
+
+
+article {
+	position: relative;
+	flex-wrap: wrap-reverse;
+}
+
+article .image {
+	width: 500px;
+	height: 350px;
+	background-image: url(honey.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+}
+
+article .text {
+	width: 500px;
+	height: 300px;
+	background-color: white;
+	padding: 20px;
+	font-family: Raleway;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+article .text .mini-header span {
+	margin-right: 10px;
+}
+
+article .text .mini-header {
+	text transform: uppercase;
+	font-family: Raleway;
+	font-size: 15px;
+}
+
+article .text .mini-footer {
+	display: flex;
+	justify-content: space-between;
+	color: darkgray;
+	font-size: 14px;
+	width: 97%;
+}
+
+article .redbox {
+	background-color: red;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 351.5px;
+	left: 0px;
+	font-family: Raleway;
+}
+
+.article {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.acacia .image {
+	width: 500px;
+	height: 350px;
+	background-image: url(acacia-honey.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+}
+
+
+.clover .image {
+	width: 500px;
+	height: 350px;
+	background-image: url(clover-honey.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;	
+}
+
+.orange .image {
+	width: 500px;
+	height: 350px;
+	background-image: url(orange-honey.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;	
+}
+
+.clover {
+	margin-top: px;
+}
+
+.orange {
+	margin-top: 30px;
+}
+
+.flower .image {
+	width: 500px;
+	height: 350px;
+	background-image: url(flower-honey.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;	
+}
+
+.flower {
+	margin-top: 30px
+}
+
+.pollen .image {
+	width: 500px;
+	height: 350px;
+	background-image: url(pollen.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 20px;	
+}
+
+.pollen {
+	margin-top: 30px;
+}
+
+.big-footer {
+	font-weight: 300;
+}
+
+.footer {
+	position: relative;
+	top: 300px;
+}
+
+.html {
+	zoom: 90%;
+}
+
+/*************************** About Page Styling **********************************/
+ .hobbies {
+ 	display: flex;
+ 	justify-content: space-between;
+	padding: 20px;
+	text-decoration: none;/* It removes the underline */
+	color: black;
+	font-family: Raleway;
+	background: linear-gradient(0deg, rgba(207,199,30,1) 48%, rgba(153,144,214,1) 81%);;
+}
+
+li {
+	font-family: Raleway;
+}
+
+.hobby {
+	width: 300px;
+	height: 200px;
+	border: solid 4px black;
+	border-radius: 8px;
+}
+
+.ab {
+	width: 300px;
+	height: 200px;
+	border: solid 4px black;
+	border-radius: 8px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+}
