@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Progressing</title>
+	<style type="text/css">
+		
+		body {
+			background-color: #e5dfbe;
+		}
+		.bar {
+			border: 10px solid #499b4a;
+			border-radius: 15px;
+			width: 250px;
+			height: 10px;
+			margin: 20px;
+		}
+
+		.progress {
+			background-color: #ac9362;
+			animation: move 3s;
+			width: 250px;
+			height: 10px;
+			border-radius: 15px;
+		}
+
+		@keyframes move {
+			0%{width: 0%;}
+			25%{width: 25%;}
+			50%{width: 50%;}
+			100%{width: 100%;}
+		}
+	</style>
+</head>
+<body>
+<div class="text">Progressing...</div>
+<div class="bar">
+	<div class="progress"></div>
+</div>
+
+</body>
+</html>
