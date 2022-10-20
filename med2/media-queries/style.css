@@ -35,9 +35,19 @@ aside {
 
 }
 
-.container {
-	width: 70%;
-	margin: auto; /*Bereich wird mittig ausgerichtet */
+
+/*Design Tablet */
+/*600px*/
+@media (min-width: 600px){
+	article {
+		width: 60%;
+		float: left;
+	}
+
+	aside {
+		width: 40%;
+		float: left;
+	}
 }
 
 /* Design für Desktop */
@@ -52,6 +62,10 @@ nav {
 	float: left;
 }
 
+li {
+	display: block;
+}
+
 article {
 	width: 50%;
 	float: left;
@@ -60,6 +74,11 @@ article {
 aside {
 	width: 25%;
 	float: left;
+}
+
+.container {
+	width: 70%;
+	margin: auto; /*Bereich wird mittig ausgerichtet */
 }
 
 }
