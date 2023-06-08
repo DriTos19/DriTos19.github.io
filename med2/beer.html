@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beer</title>
+	<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+		div {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+  			transform: translate(-50%, -50%);
+		}
+
+		p {
+			font-family: Rock Salt;
+			font-size: 100px;
+			color: rgb(133, 143, 201);
+		}
+
+		.bottle {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		img {
+			height: 400px;
+		}
+
+		img:hover {
+			animation: rotate 0.5s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+		}
+
+		@keyframes rotate {
+			0% {transform: rotate(0);}
+			100% {transform: rotate(360deg);}
+		}
+	</style>
+</head>
+<body>
+	<div>
+<p>Beer</p>
+	</div>
+	<div class="bottle">
+	<img src="beer.png">
+	</div>
+</body>
+</html>
